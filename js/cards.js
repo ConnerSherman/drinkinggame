@@ -1,11 +1,17 @@
+//np == nonplayer
+
 var Cards = [];
+var npCards = [];
 
 var selectedDecks = [true, true];
-var deckNames = ["copyedDeck", "cocoDeck"]
+var deckNames = ["copyedDeck", "cocoDeck"];
+
+var npSelectedDecks = [true];
+var npDeckNames = ["npCopyedDeck"];
 
 
 var copyedDeck = [
-					"Drink", "Drink", "Drink", "Drink", "Drink", "Everyone must drink", "Everyone must drink", "Select two playes to drink", "Flip a coin. Heads, each player drinks once. Tails, you drink once for each other player.",
+					"Drink", "Drink", "Drink", "Drink", "Drink", "Select two playes to drink", "Flip a coin. Heads, each player drinks once. Tails, you drink once for each other player.",
 			 		"All female players must drink", "Drink a shot", " Everyone attempts to touch their toes (without bending their knees). Those who can't must drink once", "The person to have most recently had sex must drink", 
 			 		"Choose any two players to arm wrestle. Loser drinks once", "Drink twice for each female player", "A player of your choosing must drink twice; players sitting to his left and right must each drink once",
 					"A player of your choice must run 3 laps around the room", 
@@ -40,7 +46,7 @@ var copyedDeck = [
 var cocoDeck = [
 				"Wer würde am ehesten unter der Brücke landen? Alle stimmen gleichzeit ab wer die meisten Stimmen bekommt tringt. Credit:Coco"
 
-			]
+			];
 
 
 for (var i = deckNames.length - 1; i >= 0; i--) {
@@ -48,6 +54,24 @@ for (var i = deckNames.length - 1; i >= 0; i--) {
 		m = deckNames[i];
 
 		var Cards = Cards.concat(eval(m));
+
+	}
+}
+
+var npCopyedDeck = [
+					"Everyone must drink", "Everyone must drink"
+
+
+
+
+				];
+
+
+for (var i = npDeckNames.length - 1; i >= 0; i--) {
+	if (npSelectedDecks[i] == true) {
+		m = npDeckNames[i];
+
+		var npCards = npCards.concat(eval(m));
 
 	}
 }
