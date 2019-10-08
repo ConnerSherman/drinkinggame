@@ -6,38 +6,55 @@
 </head>
 
 <body>
+<script>
+	function addFields(){
+		$("#Button").show();
+            // Number of inputs to create
+            var number = document.getElementById("member").value;
+            // Container <div> where dynamic content will be placed
+            container = document.getElementById("container");
+            // Clear previous contents of the container
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            for (i=0;i<number;i++){
+            	n = i +1;
+                // Append a node with a random text
+                container.appendChild(document.createTextNode("Spieler " + (n)));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "text";
 
-<input type="text" id="Name_1" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_2" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_3" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_4" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_5" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_6" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_7" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_8" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_9" value="Namen hier einfügen">
-<br>
-<input type="text" id="Name_10" value="Namen hier einfügen">
+                input.id = "Name_" + n;
+                container.appendChild(input);
+                // Append a line break 
+                container.appendChild(document.createElement("br"));
+            }
+        }
+</script>
 
+<div class = "toBeGone">
+	<label for="member">Anzah der Spieler hier einfügen</label>
+	<br>
+	<input type="number" id="member" name="member" value="">
+	<br>
+	<a href="#" id="filldetails" onclick="addFields()">Textfelder generieren</a>
+	<div id="container"></div>
+	<br>
+	<button id="Button">Bestätigen</button>
+</div>
 
-<br>
-<button id="Button" onclick="removeimput()">Bestätigen</button>
-
-<p id="Name"></p>
-<p id="Runde"></p>
+<div class = "playerInfo">
+	<p id="Name"></p>
+	<p id="Runde"></p>
+</div>
 <p id="Card"></p>
-<p>Alpha 0.0.1</p>
+<button id="NextButton">Next</button>
+<p>Alpha 0.0.2</p>
 <p id="debug"></p>
 
-
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.js"></script>
 <script src="js/cards.js"></script>
 <script src="js/Main.js"></script>
 

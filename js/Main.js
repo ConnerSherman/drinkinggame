@@ -1,51 +1,45 @@
 var Zuruecklegen = false;
 
 var Namen = [];
-var NamenNichtSortiert = [];
 var counter = 0;
 var rounds = 1;
 
-function removeimput(elementId) {
-	baum = "Name_";
-    for (i = 1; i < 11; i++) {
-		l = i.toString();
-
-  		elementID_Number = baum + l
-  		var namenZwischenspeicher = document.getElementById(elementID_Number).value;
-  		NamenNichtSortiert[i-1] = namenZwischenspeicher;
-  		var element = document.getElementById(elementID_Number);
-
-    	element.parentNode.removeChild(element);
-	}
-	var element = document.getElementById("Button");
-    element.parentNode.removeChild(element);
-
-    Namen = NamenNichtSortiert.filter(falscheNamenAussortieren);
-    
-  	var btn = document.createElement("BUTTON");
-  	btn.innerHTML = "Next";
-  	btn.id = "Next";
-  	document.body.appendChild(btn);
-  	document.getElementById("Next").onclick = function() {start()};
-
-  	start();
-}
+var maxRoundsTillNonPlayerCard = 5;
+var roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
 
 function start() {
-	pickCard();
-	cycleThroughNames();
+  console.log(roundsTillNonPlayerCard);
+  if(roundsTillNonPlayerCard == 0){
+    roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
+    pickCard(false);
+  }else{
+    pickCard(true);
+    cycleThroughNames();
+    roundsTillNonPlayerCard--;
+  }
 	
 }
 
-
-function pickCard() {
-	var randomCard = Math.floor(Math.random() * Cards.length);
+function pickCard(playerCard) {
+  if(playerCard){
+    $(".playerInfo").show();
+    var randomCard = Math.floor(Math.random() * Cards.length);
     document.getElementById("Card").innerHTML = Cards[randomCard];
     if (Zuruecklegen != true) {
-    	Cards.splice(randomCard, 1); 
+      Cards.splice(randomCard, 1); 
     }
-
-    
+  }else{
+    var randomCard = Math.floor(Math.random() * npCards.length);
+    document.getElementById("Card").innerHTML = npCards[randomCard];
+    if (Zuruecklegen != true) {
+      npCards.splice(randomCard, 1); 
+    }
+    if (npCards.length == 0){
+      roundsTillNonPlayerCard = -1;
+    }
+    $(".playerInfo").hide();
+  }
+	   
 }
 
 function cycleThroughNames() {
@@ -57,8 +51,4 @@ function cycleThroughNames() {
 		rounds += 1;
 		counter = 0;
 	}
-}
-
-function falscheNamenAussortieren(value, index, array) {
-	return value != "Namen hier einfügen";
 }
