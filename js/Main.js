@@ -22,6 +22,7 @@ function start() {
 
 function pickCard(playerCard) {
   if(playerCard){
+    setBackgroundColor("#FFce73");
     $(".playerInfo").show();
     var randomCard = Math.floor(Math.random() * Cards.length);
     document.getElementById("Card").innerHTML = Cards[randomCard];
@@ -29,6 +30,7 @@ function pickCard(playerCard) {
       Cards.splice(randomCard, 1); 
     }
   }else{
+    setBackgroundColor("#73ff88");
     var randomCard = Math.floor(Math.random() * npCards.length);
     document.getElementById("Card").innerHTML = npCards[randomCard];
     if (Zuruecklegen != true) {
