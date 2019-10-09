@@ -29,7 +29,7 @@ $(document).ready(function(){
 	
 	$(".suppressAction").submit(function(){return false;}) // suppress default action (get request)
 	
-	$("#filldetails").click(function(){
+	$("#startForm").submit(function(){
 		var container = $("#initPlayersContainer");
 		var players = $("#member").val();
 		
@@ -40,5 +40,6 @@ $(document).ready(function(){
 		}
 		$("#startForm").hide();
 		$("#Button").show();
+		return false;
 	});
 });
