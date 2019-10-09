@@ -10,34 +10,6 @@
 </head>
 
 <body>
-<script>
-	// DEPRECATED in favour of $("#filldetails").click() event
-	/*function addFields()
-	{
-		$("#Button").show();
-		// Number of inputs to create
-		var number = document.getElementById("member").value;
-		// Container <div> where dynamic content will be placed
-		container = document.getElementById("container");
-		// Clear previous contents of the container
-		while (container.hasChildNodes()) {
-			container.removeChild(container.lastChild);
-		}
-		for (i=0;i<number;i++){
-			n = i +1;
-			// Append a node with a random text
-			container.appendChild(document.createTextNode("Spieler " + (n)));
-			// Create an <input> element, set its type and name attributes
-			var input = document.createElement("input");
-			input.type = "text";
-
-			input.id = "Name_" + n;
-			container.appendChild(input);
-			// Append a line break 
-			container.appendChild(document.createElement("br"));
-		}
-	}*/
-</script>
 
 <div id="main">
 	<!-- Enter number of players -->
@@ -47,7 +19,7 @@
 			<label for="member">Anzahl der Spieler</label>
 			<input type="number" id="member" name="member" value="" class="form-control" min="2" max="100">
 		</div>
-		<a href="#" id="filldetails" onclick="/*addFields()*/" class="btn btn-success btn-block">Spieler Hinzufügen</a>
+		<a href="#" id="filldetails" class="btn btn-success btn-block">Spieler Hinzufügen</a>
 	</form>
 	
 	
@@ -64,8 +36,7 @@
 		<p id="Runde"></p>
 	</div>
 	<p id="Card"></p>
-	<!--<button id="NextButton" class="hidden btn-success">Next</button>-->
-	<p class="game-status">Alpha 0.0.3</p>
+	<p class="game-status">Alpha 0.0.4</p>
 	<p id="debug"></p>
 </div>
 	

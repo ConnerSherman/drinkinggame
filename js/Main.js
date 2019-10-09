@@ -1,7 +1,7 @@
 var Zuruecklegen = false;
 
 var Namen = [];
-var counter = 0;
+var counter = -1;
 var rounds = 1;
 
 var maxRoundsTillNonPlayerCard = 5;

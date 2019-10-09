@@ -1,6 +1,3 @@
-// $("#NextButton").hide(); // hide with css instead
-// $("#Button").hide(); // hide with css instead
-
 $(document).ready(function(){
 
 	$("#Button").click(function(){
@@ -21,11 +18,6 @@ $(document).ready(function(){
 			return false;
 		})
   	});
-
-  	/*$("#NextButton").click(function(){
-  		start();
-  	});
-	*/
 	
 	$(".suppressAction").submit(function(){return false;}) // suppress default action (get request)
 	
