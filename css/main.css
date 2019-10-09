@@ -34,6 +34,11 @@ body {
 	margin-bottom: 0 !important;
 }
 
+/* have everything perfectly aligned */
+* {
+	text-align: center !important;
+}
+
 #Card {
 	font-weight: bold;
 }
