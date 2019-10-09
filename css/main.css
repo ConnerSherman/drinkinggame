@@ -1,0 +1,44 @@
+html {
+	background-color: #FFce73;
+}
+
+/* perfectly align main box */
+body {
+	background-color: #FFce73;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	padding: 1ex;
+}
+
+#main {
+	padding: 1ex;
+	min-width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#startForm {
+	max-width: 20em;
+}
+
+.no-mb {
+	margin-bottom: 0 !important;
+}
+
+#Card {
+	font-weight: bold;
+}
+
+.game-status {
+	font-size: 90%;
+	color: #444;
+}

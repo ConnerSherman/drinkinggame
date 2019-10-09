@@ -52,3 +52,11 @@ function cycleThroughNames() {
 		counter = 0;
 	}
 }
+
+/**
+* sets Background Color of body to newColor
+*/
+function setBackgroundColor(newColor)
+{
+	$("body").css("backgroundColor", newColor);
+}
