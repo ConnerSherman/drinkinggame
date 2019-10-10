@@ -3,11 +3,11 @@
 var Cards = [];
 var npCards = [];
 
-var selectedDecks = [true, true];
-var deckNames = ["copyedDeck", "cocoDeck"];
+var selectedDecks = [true];
+var deckNames = ["copyedDeck"];
 
-var npSelectedDecks = [true];
-var npDeckNames = ["npCopyedDeck"];
+var npSelectedDecks = [true, true];
+var npDeckNames = ["npCopyedDeck", "npCocoDeck"];
 
 
 var copyedDeck = [
@@ -46,13 +46,6 @@ var copyedDeck = [
 			 		"Choose a player to try to toss something into a glass 2m away. If they make it, everyone drinks. If they miss, they drink once for each other player",
 			 	];
 
-
-var cocoDeck = [
-				"Wer würde am ehesten unter der Brücke landen? Alle stimmen gleichzeitig ab wer die meisten Stimmen bekommt trinkt. Credit:Coco"
-
-			];
-
-
 for (var i = deckNames.length - 1; i >= 0; i--) {
 	if (selectedDecks[i] == true) {
 		m = deckNames[i];
@@ -85,6 +78,10 @@ var npCopyedDeck = [
 			 		"Anyone with more than 15 euros in their wallet must drink", 
 			 		"Any players born in the current country must drink. Foreigners high five each other", "Anyone who cannot present a condom must drink", 
 			 		"Any player who has used any sort of toy, sexually, must drink"
+				];
+
+var npCocoDeck = [
+				"Wer würde am ehesten unter der Brücke landen? Alle stimmen gleichzeitig ab wer die meisten Stimmen bekommt trinkt. Credit:Coco"
 				];
 
 
