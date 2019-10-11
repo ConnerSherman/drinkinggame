@@ -8,6 +8,11 @@ var maxRoundsTillNonPlayerCard = 5;
 var roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
 
 function start() {
+	if(Cards.length == 0 && npCards.length == 0){
+		break
+	}else if(Cards.length == 0){
+		roundsTillNonPlayerCard = 0;
+	}
   console.log(roundsTillNonPlayerCard);
   if(roundsTillNonPlayerCard == 0){
     roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
