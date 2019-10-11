@@ -22,7 +22,7 @@ body {
 	align-items: center;
 }
 
-.hidden {
+.suppressAction {
 	display: none;
 }
 
