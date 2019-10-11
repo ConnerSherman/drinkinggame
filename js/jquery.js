@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("#Button").click(function(){
+	$(".suppressAction").submit(function(){
     	$(".toBeGone").hide();
 		$("#initPlayers").hide();
     	console.log("Member: ");
@@ -28,10 +28,10 @@ $(document).ready(function(){
 		// append a player name input field for each player
 		for(var i = 1; i <= players; i ++)
 		{
-			container.append('<div class="form-group no-mb"><label for="player-' + i + '">Spieler/in ' + i + '</label><input type="text" class="form-control" id="player-' + i + '"></div>')
+			container.append('<div class="form-group no-mb"><label for="player-' + i + '">Spieler/in ' + i + '</label><input type="text" class="form-control" id="player-' + i + '" required></div>')
 		}
 		$("#startForm").hide();
-		$("#Button").show();
+		$("#initPlayers").show();
 		return false;
 	});
 });
