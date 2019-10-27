@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$("body").click(function(){
 			start();
 			return false;
-		})
+		}).css("cursor", "pointer"); // coco fix for ios
   	});
 	
 	$(".suppressAction").submit(function(){return false;}) // suppress default action (get request)
