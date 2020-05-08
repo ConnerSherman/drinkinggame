@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 	$(".suppressAction").submit(function(){
-    	$(".toBeGone").hide();
 		$("#initPlayers").hide();
     	console.log("Member: ");
     	console.log($("#member"));
@@ -10,13 +9,14 @@ $(document).ready(function(){
 		{
 			Namen[i-1] = $("#player-" + i).val();
 		}
-		$("#NextButton").show();
-		start();
-		/* game has started -> click on screen for next card */
-		$("body").click(function(){
-			start();
-			return false;
-		}).css("cursor", "pointer"); // coco fix for ios
+
+		var container = $("#checkboxeContainer");
+
+		for (var i = 1; i < cacheCards[0].length; i++) {
+			container.append('<div class="form-group no-mb"><label for="' + cacheCards[0][i] + '">' + cacheCards[0][i] + '</label><input type="checkbox" value="" id="' + cacheCards[0][i] + '" checked></div>')
+		}
+
+		$("#decks").show();
   	});
 	
 	$(".suppressAction").submit(function(){return false;}) // suppress default action (get request)
@@ -34,4 +34,27 @@ $(document).ready(function(){
 		$("#initPlayers").show();
 		return false;
 	});
+
+	$(".checkboxes").submit(function () {
+		$(".toBeGone").hide();
+		$("#decks").hide();
+
+		for (var i = 1; i < cacheCards[0].length; i++)
+		{
+			controlArray[i-1] = $("#" + cacheCards[0][i]).is(':checked');
+		}
+
+		addToDeck(Cards, cacheCards, controlArray);
+		addToDeck(npCards, cacheNpCards, controlArray);
+
+		$("#NextButton").show();
+		start();
+		/* game has started -> click on screen for next card */
+		$("body").click(function(){
+			start();
+			return false;
+		}).css("cursor", "pointer"); // coco fix for ios
+	});
+
+	$(".checkboxes").submit(function(){return false;}) // suppress default action (get request)
 });

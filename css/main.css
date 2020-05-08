@@ -1,10 +1,10 @@
 html {
-	background-color: #FFce73;
+	background-color: #ffce73;
 }
 
 /* perfectly align main box */
 body {
-	background-color: #FFce73;
+	background-color: #ffce73;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,4 +50,8 @@ body {
 /* at least for webkit - hide all scrollbars */
 ::-webkit-scrollbar {
     display: none;
+}
+
+.checkboxes{
+	display: none;
 }

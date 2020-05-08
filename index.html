@@ -27,8 +27,15 @@
 	<form class="suppressAction" id="initPlayers">
 		<div id="initPlayersContainer"></div>
 		<br>
-		<button type="submit" class="btn btn-success btn-block">Spiel starten</button>
+		<button type="submit" class="btn btn-success btn-block">Spieler bestätigen</button>
 	</form>
+
+    <!-- Choose decks -->
+    <form class="checkboxes" id="decks">
+        <div id="checkboxeContainer"></div>
+        <br>
+        <button type="submit" class="btn btn-success btn-block">Spiel starten</button>
+    </form>
 	
 	<!-- Main Game -->
 	<div class="playerInfo">
@@ -36,13 +43,14 @@
 		<p id="Runde"></p>
 	</div>
 	<p id="Card"></p>
-	<p class="game-status">Alpha 0.0.5</p>
+	<p class="game-status">Beta 0.1.0</p>
     <a class="toBeGone" href="https://github.com/ConnerSherman/drinkinggame">Source</a>
 	<p id="debug"></p>
 </div>
 	
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/jquery.js"></script>
+<script src="js/papaparse.min.js"></script>
 <script src="js/cards.js"></script>
 <script src="js/Main.js"></script>
 
