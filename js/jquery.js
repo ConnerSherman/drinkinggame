@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 		var container = $("#checkboxeContainer");
 
-		for (var i = 1; i < cacheCards[0].length; i++) {
+		for (var i = 2; i < cacheCards[0].length; i++) {
 			container.append('<div class="form-check"><input type="checkbox" class="form-check-input" value="" id="' + cacheCards[0][i] + '" checked><label class="form-check-label" for="' + cacheCards[0][i] + '">' + cacheCards[0][i] + '</label></div>')
 		}
 
@@ -39,9 +39,9 @@ $(document).ready(function(){
 		$(".toBeGone").hide();
 		$("#decks").hide();
 
-		for (var i = 1; i < cacheCards[0].length; i++)
+		for (var i = 2; i < cacheCards[0].length; i++)
 		{
-			controlArray[i-1] = $("#" + cacheCards[0][i]).is(':checked');
+			controlArray[i-2] = $("#" + cacheCards[0][i]).is(':checked');
 		}
 
 		addToDeck(Cards, cacheCards, controlArray);
