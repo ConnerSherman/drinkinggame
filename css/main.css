@@ -55,3 +55,7 @@ body {
 .checkboxes{
 	display: none;
 }
+
+.reset{
+	display: none;
+}

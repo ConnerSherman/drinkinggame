@@ -10,31 +10,45 @@ var roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayer
 
 var multiTurnsCardTracker = [];
 
+var colorDefault = "#ffce73";
+var colorNpCard = "#73ff88";
+var colorEnds = "#c95164";
+
 function start() {
-  console.log(roundsTillNonPlayerCard);
-  var endingCard = findFirstElementZero(multiTurnsCardTracker);
-  if(endingCard !== null){
-      setBackgroundColor("#c95164");
-      document.getElementById("Name").innerHTML = "This card ends now";
-      document.getElementById("Runde").innerHTML = "";
-      document.getElementById("Card").innerHTML = endingCard;
-      $(".playerInfo").show();
-  }else{
-      decrement(multiTurnsCardTracker);
-      if(roundsTillNonPlayerCard == 0){
-          roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
-          pickCard(false);
-      }else{
-          pickCard(true);
-          cycleThroughNames();
-          roundsTillNonPlayerCard--;
-      }
-  }
+    if(Cards.length !== 0){
+        console.log(roundsTillNonPlayerCard);
+        var endingCard = findFirstElementZero(multiTurnsCardTracker);
+        if(endingCard !== null){
+            setBackgroundColor(colorEnds);
+            document.getElementById("Name").innerHTML = "This card ends now";
+            document.getElementById("Runde").innerHTML = "";
+            document.getElementById("Card").innerHTML = endingCard;
+            $(".playerInfo").show();
+        }else{
+            decrement(multiTurnsCardTracker);
+            if(roundsTillNonPlayerCard == 0){
+                roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
+                pickCard(false);
+            }else{
+                pickCard(true);
+                cycleThroughNames();
+                roundsTillNonPlayerCard--;
+            }
+        }
+    }else{
+        setBackgroundColor(colorDefault);
+        document.getElementById("Name").innerHTML = "This Game is over";
+        document.getElementById("Runde").innerHTML = "Please leave feedback on our Github page"
+        document.getElementById("Card").innerHTML = "";
+        $(".playerInfo").show();
+        $("#github").show();
+        $(".reset").show()
+    }
 }
 
 function pickCard(playerCard) {
   if(playerCard){
-    setBackgroundColor("#ffce73");
+    setBackgroundColor(colorDefault);
     $(".playerInfo").show();
     var randomCard = Math.floor(Math.random() * Cards.length);
     document.getElementById("Card").innerHTML = Cards[randomCard][0];
@@ -43,7 +57,7 @@ function pickCard(playerCard) {
       Cards.splice(randomCard, 1); 
     }
   }else{
-    setBackgroundColor("#73ff88");
+    setBackgroundColor(colorNpCard);
     var randomCard = Math.floor(Math.random() * npCards.length);
     document.getElementById("Card").innerHTML = npCards[randomCard][0];
     multiTurnsCardTracker.push(npCards[randomCard]);
