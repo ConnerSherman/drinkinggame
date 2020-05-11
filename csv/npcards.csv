@@ -1,30 +1,37 @@
-"","Shots","Outside"
-"Everyone must drink","-1","false","false"
-"Everyone must drink","-1","false","false"
-"All female players must drink","-1","false","false"
-"Everyone attempts to touch their toes (without bending their knees). Those who can't must drink once","-1","false","false"
-"The person to have most recently had sex must drink","-1","false","false"
-"The tallest and shortest players must each toast to their freakish heights and drink","-1","false","false"
-"Everyone must hold their breath. The first player to give up must drink twice","-1","false","false"
-"Whoever has the most piercings must drink","-1","false","false"
-"Any player whose legs are crossed must drink","-1","false","false"
-"Each player takes a shot, trades seats with another player, trades shirts with a different player, and shouts an inspiring war cry","-1","true","false"
-"Any players who believe in God must drink","-1","false","false"
-"Everyone must quickly strike the Captain Morgen pose. Last one to captain must drink","-1","false","false"
-"Blonde players must drink. Blue-eyed players must drink. Both? Drink three times","-1","false","false"
-"All smokers must drink. Anyone currently smoking must drink three times","-1","false","false"
-"All single players must drink","-1","false","false"
-"Youngest player sits on oldest player's lap for 4 turns","4","false","false"
-"Everyone with glasses must drink twice (once for each eye). Those wearing contacts must drink four times (for hiding their eyeball failure)","-1","false","false"
-"The last player who went to the bathroom must drink halfe of what's in their glass","-1","false","false"
-"The player with the biggest boobs must drink twice. Anyone with fake tits must take a shot","-1","true","false"
-"Whoever's birthday is soonest must drink once for each remaining month. If it is someone's birthday they drink a shot","-1","true","false"
-"If anyone has ever walked in on you while masturbating or during any sexual act, drink","-1","false","false"
-"Each player drinks once for each continent they have been to. If they've been to six, they drink a shot","-1","true","false"
-"Each player drinks once for each language they speak. If they only speak one language, they must drink a shot","-1","true","false"
-"Each player drinks once for each time he or she has masturbated in the past week, and takes a shot for each time he or she had sex in the past week","-1","true","false"
-"Anyone with more than 15 euros in their wallet must drink","-1","false","false"
-"Any players born in the current country must drink. Foreigners high five each other","-1","false","false"
-"Anyone who cannot present a condom must drink","-1","false","false"
-"Any player who has used any sort of toy, sexually, must drink","-1","false","false"
-"Wer würde am ehesten unter der Brücke landen? Alle stimmen gleichzeitig ab wer die meisten Stimmen bekommt trinkt. Credit:Coco","-1","false","false"
+;;Shots;Potential NSFW;Inside Joke
+Everyone must drink;-1;false;false;false
+Everyone must drink;-1;false;false;false
+All female players must drink;-1;false;false;false
+Everyone attempts to touch their toes (without bending their knees). Those who can't must drink once;-1;false;false;false
+The person to have most recently had sex must drink;-1;false;true;false
+The tallest and shortest players must each toast to their freakish heights and drink;-1;false;false;false
+Everyone must hold their breath. The first player to give up must drink twice;-1;false;false;false
+Whoever has the most piercings must drink;-1;false;false;false
+Any player whose legs are crossed must drink;-1;false;false;false
+Each player takes a shot, trades seats with another player, trades shirts with a different player, and shouts an inspiring war cry;-1;true;false;false
+Any players who believe in God must drink;-1;false;false;false
+Everyone must quickly strike the Captain Morgen pose. Last one to captain must drink;-1;false;false;false
+Blonde players must drink. Blue-eyed players must drink. Both? Drink three times;-1;false;false;false
+All smokers must drink. Anyone currently smoking must drink three times;-1;false;false;false
+All single players must drink;-1;false;false;false
+Youngest player sits on oldest player's lap for 4 turns;4;false;true;false
+Everyone with glasses must drink twice (once for each eye). Those wearing contacts must drink four times (for hiding their eyeball failure);-1;false;false;false
+The last player who went to the bathroom must drink halfe of what's in their glass;-1;false;false;false
+The player with the biggest boobs must drink twice. Anyone with fake tits must take a shot;-1;true;true;false
+Whoever's birthday is soonest must drink once for each remaining month. If it is someone's birthday they drink a shot;-1;true;false;false
+If anyone has ever walked in on you while masturbating or during any sexual act, drink;-1;false;true;false
+Each player drinks once for each continent they have been to. If they've been to six, they drink a shot;-1;true;false;false
+Each player drinks once for each language they speak. If they only speak one language, they must drink a shot;-1;true;false;false
+Each player drinks once for each time he or she has masturbated in the past week, and takes a shot for each time he or she had sex in the past week;-1;true;true;false
+Anyone with more than 15 euros in their wallet must drink;-1;false;false;false
+Any players born in the current country must drink. Foreigners high five each other;-1;false;false;false
+Anyone who cannot present a condom must drink;-1;false;true;false
+Any player who has used any sort of toy, sexually, must drink;-1;false;true;false
+Wer wuerde am ehesten unter der Bruecke landen? Alle stimmen gleichzeitig ab wer die meisten Stimmen bekommt trinkt. Credit:Coco;-1;false;false;false
+The person with the oldest pet drinks;-1;false;false;false
+DON'T READ THIS OUT LAUD. Cough last person to say Baguette drinks 3 sips;-1;false;false;true
+Everone who ever had a near death experience drinks;-1;false;false;false
+Decide who is the drunkest. This person drinks;-1;false;false;false
+Every player who had anal sex drinks;-1;false;true;false
+Everyone drinks RANDOMNUMBER sips;-1;false;false;false
+Everyone who wears black drinks;-1;false;false;false
