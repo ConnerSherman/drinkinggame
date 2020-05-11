@@ -37,3 +37,8 @@ function addToDeck(targetDeck, copyFromDeck, controlArray) {
 		}
 	}
 }
+
+function insertCustomText(input) {
+	input = input.replace(/RANDOMNUMBER/g, Math.floor(Math.random() * 10) + 1);
+	return input;
+}

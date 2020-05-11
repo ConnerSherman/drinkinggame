@@ -51,7 +51,9 @@ function pickCard(playerCard) {
     setBackgroundColor(colorDefault);
     $(".playerInfo").show();
     var randomCard = Math.floor(Math.random() * Cards.length);
-    document.getElementById("Card").innerHTML = Cards[randomCard][0];
+    var text = insertCustomText(Cards[randomCard][0]);
+    Cards[randomCard][0] = text;
+    document.getElementById("Card").innerHTML = text;
     multiTurnsCardTracker.push(Cards[randomCard]);
     if (Zuruecklegen != true) {
       Cards.splice(randomCard, 1); 
@@ -59,7 +61,9 @@ function pickCard(playerCard) {
   }else{
     setBackgroundColor(colorNpCard);
     var randomCard = Math.floor(Math.random() * npCards.length);
-    document.getElementById("Card").innerHTML = npCards[randomCard][0];
+    var text = insertCustomText(npCards[randomCard][0]);
+    npCards[randomCard][0] = text;
+    document.getElementById("Card").innerHTML = text;
     multiTurnsCardTracker.push(npCards[randomCard]);
     if (Zuruecklegen != true) {
       npCards.splice(randomCard, 1); 

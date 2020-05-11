@@ -62,3 +62,19 @@ Write your name one a wall using your ass;-1;false;false;false
 Strip one piece of clothing;-1;false;true;false
 Pick a player who has to strip one piece of clothing;-1;false;true;false
 The player to your right has to squeeze your tits or you could take a shot;-1;true;true;false
+Person on your left chugs your glass;-1;false;false;false
+Pick three players to be mates. If one of them needs to drink they all do. Ends after 10 turns;10;false;false;false
+Make a rule. Ends after 10 turns;10;false;false;false
+Tell a secret;-1;false;false;false
+Everone drinks exept you;-1;false;false;false
+Mix a drink for the person to your right;-1;false;false;false
+Never have I ever;-1;false;false;false
+Fuck, Marry, Kill;-1;false;false;false
+Pick a mate. If one of you drinks the other one has to drink to. Ends after 10 turns;10;false;false;false
+Make a rule. Ends after 10 turns;10;false;false;false
+Everone taller than you drinks;-1;false;false;false
+Give out 10 shots;-1;true;false;false
+Give out RANDOMNUMBER shots;-1;true;false;false
+Bless someone with a kiss;-1;false;false;false
+Truth, dare, Drink;-1;false;false;false
+Drink RANDOMNUMBER sips;-1;false;false;false
