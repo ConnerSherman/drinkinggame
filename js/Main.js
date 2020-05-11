@@ -4,6 +4,7 @@ var Namen = [];
 var counter = 0;
 var rounds = 1;
 var controlArray = [];
+var currentName;
 
 var maxRoundsTillNonPlayerCard = 5;
 var roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
@@ -30,8 +31,8 @@ function start() {
                 roundsTillNonPlayerCard = Math.floor((Math.random() * maxRoundsTillNonPlayerCard) + 1);
                 pickCard(false);
             }else{
-                pickCard(true);
                 cycleThroughNames();
+                pickCard(true);
                 roundsTillNonPlayerCard--;
             }
         }
@@ -51,7 +52,7 @@ function pickCard(playerCard) {
     setBackgroundColor(colorDefault);
     $(".playerInfo").show();
     var randomCard = Math.floor(Math.random() * Cards.length);
-    var text = insertCustomText(Cards[randomCard][0]);
+    var text = insertCustomText(Cards[randomCard][0], true);
     Cards[randomCard][0] = text;
     document.getElementById("Card").innerHTML = text;
     multiTurnsCardTracker.push(Cards[randomCard]);
@@ -61,7 +62,7 @@ function pickCard(playerCard) {
   }else{
     setBackgroundColor(colorNpCard);
     var randomCard = Math.floor(Math.random() * npCards.length);
-    var text = insertCustomText(npCards[randomCard][0]);
+    var text = insertCustomText(npCards[randomCard][0], false);
     npCards[randomCard][0] = text;
     document.getElementById("Card").innerHTML = text;
     multiTurnsCardTracker.push(npCards[randomCard]);
@@ -79,6 +80,7 @@ function pickCard(playerCard) {
 function cycleThroughNames() {
 	document.getElementById("Name").innerHTML = Namen[counter] + "s Runde";
 	document.getElementById("Runde").innerHTML = "Runde " + rounds;
+	currentName = Namen[counter];
 	if(counter < Namen.length - 1){
 		counter += 1;
 	}else{

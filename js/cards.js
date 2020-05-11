@@ -38,9 +38,23 @@ function addToDeck(targetDeck, copyFromDeck, controlArray) {
 	}
 }
 
-function insertCustomText(input) {
+function insertCustomText(input, name) {
+	var namenCache = Namen.slice();
+	if(name){
+		namenCache.splice(namenCache.indexOf(currentName), 1);
+	}
 	while (input.search("RANDOMNUMBER") >= 0){
 		input = input.replace("RANDOMNUMBER", Math.floor(Math.random() * 10) + 1);
 	}
+	while (input.search("RANDOMPLAYER") >= 0){
+		if(namenCache.length >= 0) {
+			var index = Math.floor(Math.random() * namenCache.length);
+			input = input.replace("RANDOMPLAYER", namenCache[index]);
+			namenCache.splice(index, 1);
+		}else{
+			input = input.replace("RANDOMPLAYER", "(You need more players for this card)")
+		}
+	}
+	input = input.replace(/PLAYER/g, currentName);
 	return input;
 }
