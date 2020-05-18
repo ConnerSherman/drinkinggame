@@ -28,7 +28,7 @@ $(document).ready(function(){
 		// append a player name input field for each player
 		for(var i = 1; i <= players; i ++)
 		{
-			container.append('<div class="form-group no-mb"><label for="player-' + i + '">Spieler/in ' + i + '</label><input type="text" class="form-control" id="player-' + i + '" required></div>')
+			container.append('<div class="form-group no-mb"><label for="player-' + i + '">Player ' + i + '</label><input type="text" class="form-control" id="player-' + i + '" required></div>')
 		}
 		$("#startForm").hide();
 		$("#initPlayers").show();
