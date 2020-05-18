@@ -38,7 +38,7 @@ function start() {
         }
     }else{
         setBackgroundColor(colorDefault);
-        document.getElementById("Name").innerHTML = "This Game is over";
+        document.getElementById("Name").innerHTML = "You reached the end of this game.<br> If you can still read this play again.";
         document.getElementById("Runde").innerHTML = "Please leave feedback on our Github page"
         document.getElementById("Card").innerHTML = "";
         $(".playerInfo").show();
@@ -78,8 +78,8 @@ function pickCard(playerCard) {
 }
 
 function cycleThroughNames() {
-	document.getElementById("Name").innerHTML = Namen[counter] + "s Runde";
-	document.getElementById("Runde").innerHTML = "Runde " + rounds;
+	document.getElementById("Name").innerHTML = Namen[counter] + "s turn";
+	document.getElementById("Runde").innerHTML = "Round " + rounds;
 	currentName = Namen[counter];
 	if(counter < Namen.length - 1){
 		counter += 1;
