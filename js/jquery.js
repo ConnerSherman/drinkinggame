@@ -13,7 +13,7 @@ $(document).ready(function(){
 		var container = $("#checkboxeContainer");
 
 		for (var i = 2; i < cacheCards[0].length; i++) {
-			container.append('<div class="form-check"><input type="checkbox" class="form-check-input" value="" id="' + cacheCards[0][i].replace(/ /g, "") + '" checked><label class="form-check-label" for="' + cacheCards[0][i] + '">' + cacheCards[0][i] + '</label></div>')
+			container.append('<div class="form-check"><input type="checkbox" class="form-check-input" value="" id="' + cacheCards[0][i].replace(/ /g, "") + '" checked><label class="form-check-label" for="' + cacheCards[0][i].replace(/ /g, "") + '">' + cacheCards[0][i] + '</label></div>')
 		}
 
 		$("#decks").show();
