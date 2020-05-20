@@ -1,23 +1,20 @@
 {
-  "dir" : "ltr",
-  "lang" : "English",
   "name" : "Drinking Game",
-  "scope" : "/",
-  "display" : "standalone",
-  "start_url" : "https://drinkinggame.netlify.app/",
   "short_name" : "Drinking Game",
-  "theme_color" : "transparent",
-  "description" : "",
+  "display" : "standalone",
+  "start_url" : "/",
   "orientation" : "portrait",
-  "background_color" : "pick",
-  "related_applications" : [],
-  "prefer_related_applications" : false,
+  "theme_color" : "#ffce73",
+  "background_color" : "#ffce73",
   "icons" : [
     {
-      "src": "https://drinkinggame.netlify.app/favicon.png",
-      "sizes": "152x152"
-    }],
-  "url" : "https://drinkinggame.netlify.app/",
-  "screenshots" : [],
-  "generated" : "true"
+      "src": "/icons/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }]
 }
