@@ -13,11 +13,10 @@ var filesToCache = [
     'js/papaparse.min.js',
     'favicon.png',
     'index.html',
-    'manifest.json',
-    'README.md'
+    'manifest.json'
 ];
 
-var cacheName = 'cache-v0.2.4';
+var cacheName = 'cache-v0.2.5';
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
