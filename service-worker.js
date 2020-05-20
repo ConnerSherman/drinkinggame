@@ -16,7 +16,7 @@ var filesToCache = [
     'manifest.json'
 ];
 
-var cacheName = 'cache-v0.2.6';
+var cacheName = 'cache-v0.2.7';
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
