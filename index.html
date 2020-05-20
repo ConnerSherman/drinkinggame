@@ -10,8 +10,6 @@
 	<link rel='manifest' href='/manifest.json'>
 </head>
 
-<body>
-
 <div id="main">
 	<!-- Enter number of players -->
 	<form class="toBeGone" id="startForm">
@@ -48,10 +46,23 @@
 	<div class="reset">
 		<button class="btn btn-success btn-block" onclick="location.reload()">Press to restart</button>
 	</div>
-	<p class="game-status">Beta 0.2.3</p>
+	<p class="game-status">Beta 0.2.4</p>
     <a class="toBeGone" id="github" href="https://github.com/ConnerSherman/drinkinggame">Source</a>
 	<p id="debug"></p>
 </div>
+<script>
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', () => {
+navigator.serviceWorker.register('service-worker.js')
+.then(registration => {
+console.log('Service Worker is registered', registration);
+})
+.catch(err => {
+console.error('Registration failed:', err);
+});
+});
+}
+</script>
 	
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/jquery.js"></script>
