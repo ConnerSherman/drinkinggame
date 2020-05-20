@@ -1,21 +1,22 @@
 {
-  "name" : "Drinking Game",
-  "short_name" : "Drinking Game",
-  "display" : "standalone",
-  "start_url" : "/",
-  "orientation" : "portrait",
-  "background_color" : "#ffce73",
-  "icons" : [
+  "name": "Drinking Game",
+  "short_name": "Drinking Game",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait",
+  "background_color": "#ffce73",
+  "icons": [
     {
-      "src": "/icons/icons-192.png",
+      "src": "images/manifest-icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable",
-      "sizes": "192x192"
+      "purpose": "maskable any"
     },
     {
-      "src": "/icons/icons-512.png",
+      "src": "images/manifest-icon-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable",
-      "sizes": "512x512"
-    }]
+      "purpose": "maskable any"
+    }
+  ]
 }

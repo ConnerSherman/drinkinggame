@@ -4,8 +4,6 @@ var filesToCache = [
     'css/main.css',
     'csv/cards.csv',
     'csv/npcards.csv',
-    'icons/icons-192.png',
-    'icons/icons-512.png',
     'js/cards.js',
     'js/jquery.js',
     'js/jquery-3.4.1.min.js',
@@ -13,10 +11,12 @@ var filesToCache = [
     'js/papaparse.min.js',
     'favicon.png',
     'index.html',
-    'manifest.json'
+    'manifest.json',
+    'images/manifest-icon-192.png',
+    'images/manifest-icon-512.png'
 ];
 
-var cacheName = 'cache-v0.2.8';
+var cacheName = 'cache';
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
@@ -43,8 +43,14 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function(e) {
     e.respondWith(
-        caches.match(e.request).then(function (response) {
-            return response || fetch(e.request);
+        caches.open(cacheName).then(cache =>{
+            return caches.match(e.request).then(function (response) {
+                const fetchPromise = fetch(e.request).then(networkResponse => {
+                    cache.put(e.request, networkResponse.clone());
+                    return networkResponse;
+                })
+                return response || fetchPromise;
+            });
         })
     );
 });
