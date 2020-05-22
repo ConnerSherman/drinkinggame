@@ -2,18 +2,13 @@ var filesToCache = [
     '/',
     'css/bootstrap.min.css',
     'css/main.css',
-    'csv/cards.csv',
-    'csv/npcards.csv',
+    'cards/cards.json',
+    'cards/npcards.json',
     'js/cards.js',
     'js/jquery.js',
     'js/jquery-3.4.1.min.js',
     'js/Main.js',
-    'js/papaparse.min.js',
-    'favicon.png',
-    'index.html',
-    'manifest.json',
-    'images/manifest-icon-192.png',
-    'images/manifest-icon-512.png'
+    'index.html'
 ];
 
 var cacheName = 'cache';

@@ -1,0 +1,317 @@
+[
+  [
+    null,
+    null,
+    "Shots",
+    "NSFW",
+    "References and Inside Jokes"
+  ],
+  [
+    "Everyone must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "All female players must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone attempts to touch their toes (without bending their knees). Those who can't must drink twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "The person to have most recently had sex must drink three times",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "The tallest and shortest players must each take a sip of the other's drink. Don't forget to give them back afterwards",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone must hold their breath. The first player to give up must drink twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Whoever has the most piercings must drink once for every two piercings (earrings count as well)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Any player whose legs are crossed must drink once",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Each player takes a shot. RANDOMPLAYER trades seats with RANDOMPLAYER. RANDOMPLAYER trades shirts with RANDOMPLAYER. And all of them shout an inspiring war cry",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Any players who believe in God must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone must quickly imitate the Captain Morgan pose. Last one to captain must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Blonde players must drink. Blue-eyed players must drink. Both? Drink three times",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "All smokers must drink. Anyone currently smoking must drink three times",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "All single players must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Youngest player must sit on the oldest player's lap for 4 turns",
+    4,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone with glasses must drink twice (once for each eye). Those wearing contacts must drink four times (for hiding their eyeball failure)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "The last player who went to the bathroom must drink half of what's in their glass",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "The player with the biggest boobs may give out two sips for each size above A. Anyone with implants must take a shot",
+    -1,
+    true,
+    true,
+    false
+  ],
+  [
+    "Whoever's birthday is soonest must drink once for each remaining month. If it is someone's birthday they drink a shot",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "If anyone has ever walked in on you while masturbating or during any sexual act, drink",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Each player drinks once for each continent they have been to. If they've been to six, they drink a shot",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Each player drinks once for each language they speak. If they only speak one language, they must drink a shot",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Each player drinks once for each time they have masturbated in the past week, and take a shot for each time had had sex in the past week",
+    -1,
+    true,
+    true,
+    false
+  ],
+  [
+    "Anyone with more than 15 bucks in their wallet must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Any players born in the current country must drink. Foreigners high five each other",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Anyone who cannot present a condom must drink",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Any player who has used any sort of toy, sexually, must drink twice",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Who of the current players is the most likely to end up under the bridge? That player must get their shit together and drink three times",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "The person with the oldest pet drinks",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "DON'T READ THIS OUT LOUD. Cough last person to say Baguette drinks 3 sips",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "Everyone who ever had a near death experience drinks",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Decide who is the drunkest. That player can give out three sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Every player who has had anal sex before drinks",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Everyone drinks RANDOMNUMBER sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone who is wearing something black drinks",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Every player who has a condom along must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Decide on the least drunk player. They must drink RANDOMNUMBER sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Trebuchet or Catapult? Vote on it. Catapults must drink you plebs",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "Any player wearing a ring must drink to rid them of Sauron's influence over them. Drink once for every ring if you're wearing multiple",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "There may come a day where our glasses dry out, but it is not this day. FOR FRODO! Everyone drinks",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "The person that arrived last must drink. For a wizard is never late, he arrives precisely when he means to drink.",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "Everyone currently unemployed must drink. A toast to government assistance",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone who studies law, economics, or medicine must drink for their snob studies",
+    -1,
+    false,
+    false,
+    false
+  ]
+]

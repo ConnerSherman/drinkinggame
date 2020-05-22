@@ -5,19 +5,12 @@ var npCards = [];
 var cacheCards = [];
 var cacheNpCards = [];
 
-readCsv('csv/cards.csv', cacheCards);
-readCsv('csv/npcards.csv',cacheNpCards);
+readJson('cards/cards.json', cacheCards);
+readJson('cards/npcards.json', cacheNpCards);
 
-function readCsv(file, array) {
-	Papa.parse(file, {
-		download: true,
-		dynamicTyping: true,
-		complete: function(results) {
-			console.log(results);
-			for (var i = 0; i < results.data.length; i++) {
-				array.push(results.data[i]);
-			}
-		}
+function readJson(file, array){
+	$.getJSON(file, function(data) {
+		array.push(...data);
 	});
 }
 
