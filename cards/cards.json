@@ -1,0 +1,632 @@
+﻿[
+  [
+    null,
+    null,
+    "Shots",
+    "NSFW",
+    "References and Inside Jokes"
+  ],
+  [
+    "Drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Select two players to drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Flip a coin. Heads, each player drinks once. Tails, you drink once for each other player.",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink a shot",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Choose any two players to arm wrestle. Loser drinks twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink twice for each female player",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "A player of your choosing must drink twice. The players sitting to their left and right must each drink once",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "A player of your choice must run 3 laps around the room",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Loudly moan with pleasure or drink RANDOMNUMBER sips",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Pick a player to play rock paper scissors with. Loser drinks once. For each tie, everyone except you must drink (to a maximum of RANDOMNUMBER rounds)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Do push-ups. For each 10 push-ups you do, everyone else must drink. After you're done, drink once",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player. They must take a shot using only their mouth. If they spill any of it, they drink once",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Choose two players. Player A must take a bodyshot off player B",
+    -1,
+    true,
+    true,
+    false
+  ],
+  [
+    "Pick a player. They must stick their arms out and stand on one foot with one eye closed for 10 seconds. If they fail, they must drink. If they succeeds, everyone else drinks twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone stands upright. You spin around once and drink once. The player to your left spins arount twice and drinks twice and so on",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player and try to guess their underwear color. If this color appears anywhere on their underwear, they drink four times. Otherwise, you drink twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player. They must take a shot, then fall off their chair",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Select a player. They must lift a player of their choice onto their shoulders. If they can't keep it up for 15 seconds, both must drink twice. Otherwise, all other players must drink twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Each turn, you choose someone to drink once. Ends after 6 turns",
+    6,
+    false,
+    false,
+    false
+  ],
+  [
+    "This player drinks double the normally required amount for the next 4 turns",
+    4,
+    false,
+    false,
+    false
+  ],
+  [
+    "All other players drink along with you for the next 6 turns",
+    6,
+    false,
+    false,
+    false
+  ],
+  [
+    "For every time you have to drink, everyone else must put their thumb on a flat surface. The last to do so must drink. Ends after 5 turns",
+    5,
+    false,
+    false,
+    false
+  ],
+  [
+    "You must play with your dominant arm behind your back.For every time you use it for anything, you drink once. Ends after 6 turns",
+    6,
+    false,
+    false,
+    false
+  ],
+  [
+    "You must move, talk and drink in slow-motion for the next 4 turns",
+    4,
+    false,
+    false,
+    false
+  ],
+  [
+    "Select two players. They must each drink twice, then high-five",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "You choose a nickname. Anyone caught referring to you by your real name must drink. Ends after 8 turns",
+    8,
+    false,
+    false,
+    false
+  ],
+  [
+    "Waterfall: Every player, beginning with you (then clockwise) starts drinking and they may only stop when the player to their right stops. The first player may choose when to stop first.",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Question Master: Any player that answers PLAYER's questions must drink unless they say \"fuck you!\" before answering. Ends after 10 turns",
+    10,
+    false,
+    false,
+    false
+  ],
+  [
+    "Select a player to flip a coin until they get two 'heads' in a row. For each 'tails', he must drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "You must walk around in a silly manner. Everyone else drinks",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "You have 6 seconds to draw a spider with a smiley on its face and the correct amount of legs. If you succeed, everyone else must drink. If you fail you must drink once for each other player",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player. RANDOMPLAYER must put an ice cube in that player's clothes.",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Everyone spanks you. Everybody that doesn't must drink RANDOMNUMBER sips",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Select two players to have a staring contest. First one to smile or look away drinks twice",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player that has to <i>make out with/hump</i> a poster, object, or wall for at least 10 seconds. If they obey everyone else must drink 4 sips. If they disobey they must drink 6 sips themselves",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "You must balance a coin on your nose. Anytime it falls of, must drink. You may only interrupt this for drinking. Ends after 3 turns",
+    3,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose two players to dance together sensually and slowly to a song. Cheers to their sex appeal. Everyone else takes a sip",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "You must drink twice for each male player",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "You may not call anyone by their real name. If you do, you must drink. Ends in 6 turns",
+    6,
+    false,
+    false,
+    false
+  ],
+  [
+    "Choose a player to try to toss something into a glass at least 2m away. If they succeed, everyone drinks once. If they miss, they drink once for each other player",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Order a pizza. If you don't want to you are not drunk enough drink 5 sips.",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "You must drink for every month that your brithday is away from January (shortest distance)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "PLAYER has the Holy Grail. Every time they drink at least one person needs to say 'Deus vult'. If nobody says it everyone except you must drink. Ends in 8 turns",
+    8,
+    false,
+    false,
+    true
+  ],
+  [
+    "Ask RANDOMPLAYER an embarrassing question. If that player doesn't want to answer the question they must drink RANDOMNUMBER sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Try to run through a wall. Drink RANDOMNUMBER unless you end up on platform 9 3/4.",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "Give every player a hug",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "RANDOMPLAYER has to bite your earlobes tenderly",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Let soemone throw a glass of water in your face or drink a whole glass of your current drink (or something equal)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Howl at the moon",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Deepthroat a bottle as far as you can",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Take off two pieces of clothing and socks don't count you cowards",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Do a forward tumble",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Suck RANDOMPLAYER's thumb for at least 3 seconds",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Drink 3 sips and distribute 6 sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Write your name on a wall using your ass",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Remove one piece of clothing, except socks. No one wants to smell your feet",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "Pick a player who has to remove one piece of clothing. Your socks may only be taken off if that's the only thing you're left wearing",
+    -1,
+    false,
+    true,
+    false
+  ],
+  [
+    "The player to your right has to squeeze your boobs, alternatively you must take a shot",
+    -1,
+    true,
+    true,
+    false
+  ],
+  [
+    "The player to your left must finish your drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Pick up to three players to be mates (you may also choose yourself as one). If one of them needs to drink, they all do. Ends after 10 turns",
+    10,
+    false,
+    false,
+    false
+  ],
+  [
+    "Make a rule. Ends after 10 turns",
+    10,
+    false,
+    false,
+    false
+  ],
+  [
+    "Tell an embarrassing story about yourself",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone drinks once except for you",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Mix a drink for the person to your right. Everyone else must applaude the future bartender",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Never have I ever (one question)",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Pick a mate. If one of you drinks the other one must drink as well. Ends after 10 turns",
+    10,
+    false,
+    false,
+    false
+  ],
+  [
+    "Make a rule. Ends after 10 turns",
+    10,
+    false,
+    false,
+    false
+  ],
+  [
+    "Everyone taller than you drinks",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Give out 6 shots to a maximum of 2 per player",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Give out RANDOMNUMBER shots to a maximum of 2 per player",
+    -1,
+    true,
+    false,
+    false
+  ],
+  [
+    "Give RANDOMPLAYER a kiss",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Truth, dare, or drink. Choose two",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Drink RANDOMNUMBER sips",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "RANDOMPLAYER must finish your drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Mix a drink for RANDOMPLAYER. Enjoy your drink with caution",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "PLAYER vs RANDOMPLAYER. Han Solo shot first, whoever shoots the other with finger guns wins. The loser must take the shot like Greedo.",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "You are in this drinking game but we do not grant you the rank of giving out sips or shots (for 7 turns). Take a seat, Young Skywalker!",
+    7,
+    false,
+    false,
+    true
+  ],
+  [
+    "They're taking the Hobbits to Isengard. Pick up the smallest player and carry them once across the room.",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "You have RANDOMPLAYER's sword. And RANDOMPLAYER's bow. And RANDOMPLAYER's AXE! PLAYER must drink one sip from each of these glasses to earn their support.",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "Every time PLAYER yawns for the next 4 turns they must drink each time",
+    4,
+    false,
+    false,
+    false
+  ],
+  [
+    "If Christmas is less than a month away PLAYER may assign three little elf helpers to drink",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Dobby is a free elf! Everytime PLAYER would have to drink, they may reassign the amount to someone else. You are back to being a slave to this game after 4 turns",
+    4,
+    false,
+    false,
+    true
+  ],
+  [
+    "Everybody must present PLAYER their socks for he is Dobby. Anyone that doesn't have a matching pair must drink",
+    -1,
+    false,
+    false,
+    true
+  ],
+  [
+    "PLAYER must drink once for every two countries they've travelled to",
+    -1,
+    false,
+    false,
+    false
+  ],
+  [
+    "Seize the means of intoxication! PLAYER gathers all other drinks and reassigns them as PLAYER wants to. Everyone takes a sip. Then they go back to their original owners",
+    -1,
+    false,
+    false,
+    true
+  ]
+]
