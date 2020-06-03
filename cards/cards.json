@@ -1,4 +1,4 @@
-[
+﻿[
   [
     null,
     null,
@@ -336,7 +336,7 @@
     true
   ],
   [
-    "Ask another RANDOMPLAYER an embarrassing question. If that player doesn't want to answer the question they must drink RANDOMNUMBER sips",
+    "Ask RANDOMPLAYER an embarrassing question. If that player doesn't want to answer the question they must drink RANDOMNUMBER sips",
     -1,
     false,
     false,
@@ -364,7 +364,7 @@
     false
   ],
   [
-    "Let soemone throw a glass of water in your face or drink a whole glass of current drink (or something equal)",
+    "Let soemone throw a glass of water in your face or drink a whole glass of your current drink (or something equal)",
     -1,
     false,
     false,
@@ -581,7 +581,7 @@
     true
   ],
   [
-    "You RANDOMPLAYER's sword. And RANDOMPLAYER's bow. And RANDOMPLAYER's AXE! PLAYER must drink one sip from each of these glasses to earn their support.",
+    "You have RANDOMPLAYER's sword. And RANDOMPLAYER's bow. And RANDOMPLAYER's AXE! PLAYER must drink one sip from each of these glasses to earn their support.",
     -1,
     false,
     false,
