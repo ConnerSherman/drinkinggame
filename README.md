@@ -1,8 +1,9 @@
 # drinkinggame
-Best I can do for now will be updated
+This Project is out of date.
 
-See Project in action: https://drinkinggame.netlify.app/
+See the Beta 0.3.0 Version of this Project at: https://drinkinggame1.netlify.app/
 
-View the complete remake at: https://github.com/noahreinalter/drinkinggame
 
-Beta 0.3.0
+
+# View the complete remake at: https://github.com/noahreinalter/drinkinggame
+# View the Webversion at: https://drinkinggame.netlify.app/
